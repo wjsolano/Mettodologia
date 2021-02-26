@@ -1,4 +1,4 @@
-package mundo;
+package ejem_Abstraccion;
 
 public abstract class Animal {
 	// Variable que contendra el nombre del animal

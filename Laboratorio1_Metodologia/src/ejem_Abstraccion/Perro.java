@@ -1,7 +1,7 @@
-package mundo;
+package ejem_Abstraccion;
 
-public class Gato extends Animal{
-	public Gato(String name) {
+public class Perro   extends Animal{
+	public Perro(String name) {
 		super.setName(name);
 	}
  
@@ -9,6 +9,6 @@ public class Gato extends Animal{
 	// que es una clase abstracta, por lo que hay que definir todos los
 	// metodos abstractos que tenga
 	public String tipoAnimal() {
-		return "El animal es un gato. Se llama " + super.getName();
+		return "El animal es un perro. Se llama " + super.getName();
 	}
 }
