@@ -2,8 +2,18 @@ package mundo;
 
 public class Abstraccion {
 	public static void main(String[] args) {
-			System.out.println("Hola mundo xd");
-			System.out.println("probando");
-			System.out.println("probando");
+		// definimos una variable que contendra clases que hereden del tipo "Animal"
+				Animal [] misAnimales = new Animal[2];
+		 
+				// instanciamos la clase perro y gato
+				misAnimales[0]=new Perro("boby");
+				misAnimales[1]=new Gato("blanquito");
+		 
+				for(Animal e:misAnimales) {
+		 
+					// ejecutara la función tipoAnimal() de la clase que haya sido instanciada.
+					// Esto se llama polimorfismo
+					System.out.println(e.tipoAnimal());
+				}
 	}
 }
