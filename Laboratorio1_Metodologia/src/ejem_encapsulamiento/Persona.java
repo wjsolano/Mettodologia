@@ -1,6 +1,7 @@
 package ejem_encapsulamiento;
 
 public class Persona {
+	
 	private int edad;
 	private String nombre;
 	
